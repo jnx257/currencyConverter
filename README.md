@@ -2,19 +2,19 @@
 
 ### This Java program is a simple currency converter with a graphical user interface (GUI) built using Swing. It allows users to convert an amount from one currency to another based on predefined exchange rates.
 
-Features:
+#### **Features** :
 
-     Supported Currencies:
-       * US Dollar (USD)
-       * Euro (EUR)
-       * British Pound (GBP)
-       * Japanese Yen (JPY)
-       * Canadian Dollar (CAD)
-       * Australian Dollar (AUD)
-       * Swiss Franc (CHF)
-       * Chinese Yuan (CNY)
-       * Indian Rupee (INR)
-       * Brazilian Real (BRL)
+- Supported Currencies:
+* US Dollar (USD)
+* Euro (EUR)
+* British Pound (GBP)
+* Japanese Yen (JPY)
+* Canadian Dollar (CAD)
+* Australian Dollar (AUD)
+* Swiss Franc (CHF)
+* Chinese Yuan (CNY)
+* Indian Rupee (INR)
+* Brazilian Real (BRL)
 
     ##### Exchange Rates:
     - The conversion rates between different currencies are stored in a 2D array taxasConversao.
