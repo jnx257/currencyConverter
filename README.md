@@ -1,18 +1,30 @@
-## Getting Started
+# Currency Converter in Java with Swing GUI
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### This Java program is a simple currency converter with a graphical user interface (GUI) built using Swing. It allows users to convert an amount from one currency to another based on predefined exchange rates.
 
-## Folder Structure
+Features:
 
-The workspace contains two folders by default, where:
+     Supported Currencies:
+       * US Dollar (USD)
+       * Euro (EUR)
+       * British Pound (GBP)
+       * Japanese Yen (JPY)
+       * Canadian Dollar (CAD)
+       * Australian Dollar (AUD)
+       * Swiss Franc (CHF)
+       * Chinese Yuan (CNY)
+       * Indian Rupee (INR)
+       * Brazilian Real (BRL)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    ##### Exchange Rates:
+    - The conversion rates between different currencies are stored in a 2D array taxasConversao.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    ##### User Interface:
+    - The program has a simple and intuitive GUI developed using Swing components.
+        Users can select the source currency, enter the amount they want to convert, choose the target currency, and then click the "Convert" button.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    ##### Input Validation:
+    - The program validates user input to ensure that the entered value is a valid number.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    ##### Placeholder Text:
+    - The text fields include placeholder text, providing users with guidance on what information to input.
